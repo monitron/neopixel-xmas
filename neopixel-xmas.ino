@@ -36,6 +36,7 @@ void loop()
 {
   switch(mode) {
   case 0:
+    
     strip.setPixelColor(frame, COLOR_GREEN);
     break;
   case 1:
